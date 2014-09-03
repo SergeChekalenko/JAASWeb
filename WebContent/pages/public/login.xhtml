@@ -7,6 +7,7 @@
 <ui:composition template="/pages/templates/BasicTemplate.xhtml">
 	<ui:define name="content">
 	<!-- <img src="resources/images/dog1.jpg"/> -->
+	<div style="background-image: url(/resources/images/public_background.jpg);">
     <p>Login to access secure pages:</p>
 	    <form method="post" action="j_security_check">
 	        <h:messages layout="table" errorStyle="background: #AFEEEE;"
@@ -23,6 +24,7 @@
 	        </h:panelGrid>
 	        <br />
 	    </form>
+	  </div>
     </ui:define>
 </ui:composition>
 </html>
